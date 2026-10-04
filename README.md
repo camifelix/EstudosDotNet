@@ -31,7 +31,7 @@ http://localhost:5098/swagger
 | `PUT` | `/api/tarefas/{id}` | Atualiza a descrição de uma tarefa existente. |
 | `PATCH` | `/api/tarefas/{id}/status` | Altera o status de uma tarefa. |
 | `DELETE` | `/api/tarefas/{id}` | Remove uma tarefa pelo Id. |
-| `DELETE` | `/api/tarefas/limpar` | Remove **todas** as tarefas de uma vez (útil para testes). |
+| `DELETE` | `/api/tarefas/limpar` | Remove **todas** as tarefas de uma vez. |
 
 ---
 
