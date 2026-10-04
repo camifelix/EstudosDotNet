@@ -1,0 +1,40 @@
+## Gerado pelo Visual Studio / .NET — não devem ir para o repositório
+
+# Pastas de build e artefatos compilados
+bin/
+obj/
+out/
+publish/
+
+# Arquivos de usuário do Visual Studio (configurações locais da máquina)
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+.vs/
+
+# Pastas de publicação
+**/publish/
+
+# Dados de runtime — o arquivo JSON de tarefas é gerado em execução,
+# não faz parte do código-fonte
+tarefas.json
+tasks.json
+
+# Logs
+*.log
+logs/
+
+# Variáveis de ambiente e segredos — NUNCA subir
+.env
+*.env
+secrets.json
+appsettings.Production.json
+
+# NuGet
+*.nupkg
+.nuget/
+
+# Cobertura de testes
+coverage/
+TestResults/

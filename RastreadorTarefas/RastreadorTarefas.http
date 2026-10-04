@@ -1,0 +1,6 @@
+@RastreadorTarefas_HostAddress = http://localhost:5098
+
+GET {{RastreadorTarefas_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
